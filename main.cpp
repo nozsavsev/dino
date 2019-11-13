@@ -1,7 +1,5 @@
 #define _CRT_SECURE_NO_WARNINGS 
 #include <SFML/Graphics.hpp> 
-#include <SFML/Network.hpp> 
-#include <Windows.h> 
 #include <random> 
 #include <sstream>
 #include "palyer.h"
@@ -10,12 +8,6 @@
 using namespace std;
 int main()
 {
-    printf("Dino SFML by nozsavsev\n");
-    Sleep(1000);
-    printf("starting dino\n");
-    Sleep(500);
-    printf("turning off the Internet\n");
-    Sleep(1000);
 
     int rec;
     
@@ -79,7 +71,7 @@ int main()
 
     while (1) {
 
-        ShowWindow(GetConsoleWindow(), SW_HIDE);//hide console window
+
 
         ret = false; //reset
         rel = false;
