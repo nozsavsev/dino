@@ -74,7 +74,7 @@ int main()
     shimg.createMaskFromColor(sf::Color::White);
     shtex.loadFromImage(shimg);
     
-    window.create(sf::VideoMode::getDesktopMode(), "", sf::Style::None);
+    window.create(sf::VideoMode::getDesktopMode(), "", sf::Style::Fullscreen);
     
 
     while (1) {
@@ -277,7 +277,7 @@ int main()
                 {
                     if (mp[i].x < (400 * (i + 1))*-1)
                     {
-                        mp[i].x = 2000;
+                        mp[i].x = 2000 * (i+1);
                         
                         mp[i].sh.setSize(sf::Vector2f(rsd(60,90), rsd(50, 65)));
                     }
