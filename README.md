@@ -6,3 +6,9 @@ linux compile g++<br/>
 unrar resources files(ttf and some textures<br/>
 `tar -xvf res.tar.gz`<br/>
 to start game `./dino`<br/>
+or<br/>
+`apt install git`<br/>
+`git clone https://github.com/nozsavsev/dino.git`<br/>
+`cd dino`
+`chmod +x compile.sh`<br/>
+`./compile.sh`<br/>
