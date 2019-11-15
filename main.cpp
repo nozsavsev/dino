@@ -66,8 +66,8 @@ int main()
     shimg.createMaskFromColor(sf::Color::White);
     shtex.loadFromImage(shimg);
     
-    window.create(sf::VideoMode::getDesktopMode(), "", sf::Style::Fullscreen);
-    
+    window.create(sf::VideoMode::getDesktopMode(), "", sf::Style::Note);
+    text.setPosition(sf::Vector2i(500,500));
 
     while (1) {
 
