@@ -9,6 +9,6 @@ to start game `./dino`<br/>
 or<br/>
 `apt install git`<br/>
 `git clone https://github.com/nozsavsev/dino.git`<br/>
-`cd dino`
+`cd dino`<br/>
 `chmod +x compile.sh`<br/>
 `./compile.sh`<br/>
